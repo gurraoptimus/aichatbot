@@ -16,7 +16,9 @@ int main(){
 
     // our chat functionailty
     while(true){
-        
+        // getting user input
+        getline(cin,user_input);
+        transform()
     }
     
 }
