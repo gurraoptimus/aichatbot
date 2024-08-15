@@ -9,6 +9,7 @@ int main(){
     unordered_map<string,string> memory;
     string user_input;
 
-    //turning user_input into lowercase
-    
+    // turning user_input into lowercase
+    transform(user_input.begin(),user_input.end(),user_input.begin(),::tolower);
+    // 
 }
