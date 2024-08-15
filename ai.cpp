@@ -11,5 +11,12 @@ int main(){
 
     // turning user_input into lowercase
     transform(user_input.begin(),user_input.end(),user_input.begin(),::tolower);
-    // 
+    // welcome message for the bot
+    cout<<"Welcome uesr, i'm a chatbot"<<endl;
+
+    // our chat functionailty
+    while(true){
+        
+    }
+    
 }
