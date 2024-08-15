@@ -25,6 +25,8 @@ int main(){
             cout<<"Hello user, how can i help you?"<<endl;
         }else if(user_input=="how are you"||user_input=="how are you ok"){
             cout<<"As a chatbot i have no emotional states"<<endl;
-        }else if(user_input==)
+        }else if(user_input=="what's my name"){
+            
+        }
     }
 }
