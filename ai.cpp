@@ -18,7 +18,11 @@ int main(){
     while(true){
         // getting user input
         getline(cin,user_input);
+        // turning user_input into lowercase
         transform(user_input.begin(),user_input.end(),user_input.begin(),::tolower);
+        
+        if(user_input=="hi"||user_input=="hello"||user_input=="hey"){
+            cout<<"Hello user"
+        }       
     }
-    
 }
