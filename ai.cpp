@@ -6,5 +6,5 @@
 using namespace std;
 
 int main(){
-    
+    unordered_map<string,string> memory;
 }
