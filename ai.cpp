@@ -18,7 +18,7 @@ int main(){
     while(true){
         // getting user input
         getline(cin,user_input);
-        transform()
+        transform(user_input.begin(),user_input.end(),user_input.begin(),::tolower);
     }
     
 }
