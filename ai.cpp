@@ -36,6 +36,6 @@ int main(){
             string name = user_input.substr(pos+11);
             memory["name"] = name;
             cout<<"Nice to meet you "<<name<<endl;
-        }
+        }else if(user_input)
     }
 }
