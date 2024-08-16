@@ -27,8 +27,10 @@ int main(){
             cout<<"As a chatbot i have no emotional states"<<endl;
         }else if(user_input=="what's my name"){
             if(memory.find("name")!=memory.end()){
-                cout<<"your name is "<<memory["name"];
-            }else{}
+                cout<<"your name is "<<memory["name"]<<endl;
+            }else{
+                cout<<"Sorry you didn't tell me your name yet. Tell me your name"<<endl;
+            }
         }
     }
 }
