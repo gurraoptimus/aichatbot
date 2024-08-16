@@ -32,7 +32,10 @@ int main(){
                 cout<<"Sorry you didn't tell me your name yet. Tell me your name"<<endl;
             }
         }else if(user_input.find("my name is")!=string::npos){
-            size_t pos = user_input.find("")
+            size_t pos = user_input.find("my name is");
+            string name = user_input.substr(pos+11);
+            memory["name"] = name;
+            cout<<"Nice to "
         }
     }
 }
