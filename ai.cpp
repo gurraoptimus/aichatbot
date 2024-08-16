@@ -31,6 +31,8 @@ int main(){
             }else{
                 cout<<"Sorry you didn't tell me your name yet. Tell me your name"<<endl;
             }
+        }else if(user_input.find("my name is")!=string::npos){
+            size_t pos = user_input.find("")
         }
     }
 }
