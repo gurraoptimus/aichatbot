@@ -35,7 +35,7 @@ int main(){
             size_t pos = user_input.find("my name is");
             string name = user_input.substr(pos+11);
             memory["name"] = name;
-            cout<<"Nice to "
+            cout<<"Nice to meet you "<<name<<endl;
         }
     }
 }
