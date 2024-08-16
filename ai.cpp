@@ -40,7 +40,9 @@ int main(){
             cout<<"bye";
             break;
         }else{
-            cout<<""
+            // default message
+            cout<<"I didn't get that, sorry"<<endl;
         }
     }
+    return 0;
 }
