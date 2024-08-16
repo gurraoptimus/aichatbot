@@ -37,7 +37,10 @@ int main(){
             memory["name"] = name;
             cout<<"Nice to meet you "<<name<<endl;
         }else if(user_input=="bye"||user_input=="see you later"||user_input=="later"){
-            cout<<
+            cout<<"bye";
+            break;
+        }else{
+            cout<<""
         }
     }
 }
