@@ -1,5 +1,6 @@
 # [A.I ChatBot](ai.cpp)
 ```
-; if ($?) {g++ ai.cpp -o bot } ; if ($?){ ./bot }
+g++ ai.cpp -o bot
+./bot
 ```
 ## A.I ChatBot
